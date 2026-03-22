@@ -1,0 +1,23 @@
+{
+  "name": "otakuvault",
+  "version": "1.0.0",
+  "description": "Anime tracking and community platform",
+  "homepage": "https://otakuvault.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaikhshahnawaz13/otakuvault"
+  },
+  "author": "Shahnawaz Shaikh",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint:html": "htmlhint index.html --config .htmlhintrc"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
